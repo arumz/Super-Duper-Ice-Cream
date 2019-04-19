@@ -1,0 +1,40 @@
+@import 'colors';
+@import 'fonts';
+.flavors-main-content-container{
+  height: 650px;
+  background-color: @primary;
+  position: center;
+  display: inline-block;
+  width: 74%;
+}
+.flavors-sidebar {
+  height: 650px;
+  display: inline-block;
+  background-color: @secondary;
+  width: 13%;
+}
+.flavors-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flavor-container{
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  padding: 30px;
+}
+.ice-cream {
+  width: 100%;
+  height: 100%;
+}
+.price{
+  text-align: right;
+  font-family: Raanana, sans-serif;
+  color: @textColor;
+}
+.ice-cream-title{
+  text-align: center;
+  font-family: Raanana, sans-serif;
+  color: @textColor;
+}

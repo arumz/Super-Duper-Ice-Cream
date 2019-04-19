@@ -15,6 +15,8 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  border-bottom: 1px solid dimgray;
+
 }
 .links {
   position: relative;
@@ -28,6 +30,7 @@ body {
   padding: 0px 20px;
 }
 .links li a {
+  color: @textColor;
   text-decoration: none;
   font-family: @Pacifico, cursive;
   font-size: 16px;
@@ -46,7 +49,27 @@ body {
   width: 450px;
   height: 70px;
 }
+h2 {
+  font-family: @Pacifico, cursive;
+  text-align: center;
+  color: @textColor;
+  font-size: 25px;
+  padding: 15px;
+}
 .footer {
   background-color: @textColor;
   height: 60px;
+}
+.social-media-container {
+  width: 400px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.social-icon{
+  color: @primary;
+  font-size: 25px;
+  padding: 10px;
 }

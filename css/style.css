@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  border-bottom: 1px solid dimgray;
 }
 .links {
   position: relative;
@@ -26,6 +27,7 @@ body {
   padding: 0px 20px;
 }
 .links li a {
+  color: #DB2727;
   text-decoration: none;
   font-family: 'Pacifico', cursive;
   font-size: 16px;
@@ -44,9 +46,29 @@ body {
   width: 450px;
   height: 70px;
 }
+h2 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #DB2727;
+  font-size: 25px;
+  padding: 15px;
+}
 .footer {
   background-color: #DB2727;
   height: 60px;
+}
+.social-media-container {
+  width: 400px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.social-icon {
+  color: #FDD080;
+  font-size: 25px;
+  padding: 10px;
 }
 .banner-container {
   background-image: url('../img/hoemImage2.jpg');
@@ -88,13 +110,6 @@ body {
 .sidebar-right {
   float: right;
 }
-h2 {
-  font-family: 'Pacifico', cursive;
-  text-align: center;
-  color: #DB2727;
-  font-size: 25px;
-  padding: 15px;
-}
 h3 {
   font-family: Raanana, sans-serif;
   color: #DB2727;
@@ -116,12 +131,12 @@ hr {
   height: 100%;
 }
 .image-container {
-  width: 50%;
+  width: 370px;
   height: 350px;
   padding: 40px 0px 40px 40px;
 }
 .side-text-container {
-  width: 50%;
+  width: 370px;
   height: 350px;
   padding: 40px 40px 40px 0px;
   display: flex;
@@ -157,5 +172,78 @@ hr {
   font-family: Raanana, sans-serif;
   color: #DB2727;
   font-size: 16px;
+}
+.about-main-content-container {
+  height: 650px;
+  background-color: #FDD080;
+  position: center;
+  display: inline-block;
+  width: 74%;
+}
+.about-sidebar {
+  height: 650px;
+  display: inline-block;
+  background-color: #51ACFC;
+  width: 13%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+.image-container {
+  width: 370px;
+  height: 350px;
+  padding: 40px 0px 40px 40px;
+}
+.side-text-container {
+  width: 370px;
+  height: 350px;
+  padding: 40px 40px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-text-container p {
+  font-family: Raanana, sans-serif;
+  color: #DB2727;
+  font-size: 16px;
+}
+.flavors-main-content-container {
+  height: 650px;
+  background-color: #FDD080;
+  position: center;
+  display: inline-block;
+  width: 74%;
+}
+.flavors-sidebar {
+  height: 650px;
+  display: inline-block;
+  background-color: #51ACFC;
+  width: 13%;
+}
+.flavors-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flavor-container {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  padding: 30px;
+}
+.ice-cream {
+  width: 100%;
+  height: 100%;
+}
+.price {
+  text-align: right;
+  font-family: Raanana, sans-serif;
+  color: #DB2727;
+}
+.ice-cream-title {
+  text-align: center;
+  font-family: Raanana, sans-serif;
+  color: #DB2727;
 }
 /*# sourceMappingURL=style.css.map */
