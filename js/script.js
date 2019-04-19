@@ -1,3 +1,6 @@
 $.getJSON('./json/data.json', function(data){
-    $('title').innerHTML = data.header;
+    console.log(data.header);
+    $('.title').html(data.header);
+    $('#tagline').html(data.tagline);
+
 });
