@@ -1,10 +1,24 @@
 @import 'colors';
+@import 'fonts';
 .banner-container {
   background-image: url('../img/hoemImage2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 300px;
+}
+.banner-container h1 {
+  width: 500px;
+  height: 100px;
+  font-family: @Pacifico, cursive;
+  color: @textColor;
+  font-size: 40px;
+  -webkit-text-fill-color: @textColor; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin: auto;
+  padding-top: 75px;
+  text-align: center;
 }
 .sidebar{
   display: inline-block;
