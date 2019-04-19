@@ -246,4 +246,56 @@ hr {
   font-family: Raanana, sans-serif;
   color: #DB2727;
 }
+.contact-main-content-container {
+  height: 850px;
+  background-color: #FDD080;
+  position: center;
+  display: inline-block;
+  width: 74%;
+}
+.contact-sidebar {
+  height: 850px;
+  display: inline-block;
+  background-color: #51ACFC;
+  width: 13%;
+}
+.form-field {
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.form-field-message {
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.label {
+  color: #DB2727;
+  font-family: Raanana, sans-serif;
+  font-size: 16px;
+}
+.input {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  border: none;
+}
+.input-message {
+  width: 400px;
+  height: 800px;
+  border-radius: 10px;
+  border: none;
+  text-align: left;
+}
+.submitButton-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.submitButton {
+  width: 85px;
+  height: 40px;
+}
 /*# sourceMappingURL=style.css.map */

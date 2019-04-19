@@ -21,30 +21,37 @@
         </ul>
     </div>
 </nav>
-<div class = "about-main-container">
-    <div class = "sidebar-left about-sidebar"></div>
-    <div class = "about-main-content-container">
+<div class = "contact-main-container">
+    <div class = "sidebar-left contact-sidebar"></div>
+    <div class = "contact-main-content-container">
         <h2 class = "cursive-header">Suggestions? Comments?</h2>
         <div class = "main-content">
-            <form class="form">
-                <label> First Name
-                    <input/>
-                </label>
-                <label> Last Name
-                    <input/>
-                </label>
-                <label> Email
-                    <input/>
-                </label>
-                <label> Message
-                    <input/>
-                </label>
-                <button></button>
+            <form class="form" onsubmit="window.location.href='/index'">
+                <div class = "form-field">
+                    <label for = "first-name" class = "label">First Name</label>
+                        <input class = "input" type = "text" name = "first-name" id = "first-name"/>
+                </div>
+                <div class = "form-field">
+                    <label for = "last-name" class = "label">Last Name</label>
+                    <input class = "input" type = "text" name = "last-name" id = "last-name"/>
+                </div>
+                <div class = "form-field">
+                    <label for = "email" class = "label">Email</label>
+                    <input class = "input" type = "email" name = "email" id = "email"/>
+                </div>
+                <div class = "form-field-message">
+                    <label for = "message" class = "label">Message</label>
+                    <textarea class = "input-message" type = "text" name = "message" id = "message"></textarea>
+                </div>
+                <div class = "submitButton-container">
+                    <button class = "submitButton">Submit</button>
+                </div>
+
             </form>
 
         </div>
     </div>
-    <div class = "sidebar-right about-sidebar"></div>
+    <div class = "sidebar-right contact-sidebar"></div>
 </div>
 <div class = "footer">
     <div class = "social-media-container">
