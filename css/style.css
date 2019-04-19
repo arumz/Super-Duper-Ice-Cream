@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+html {
+  width: 100%;
+}
+body {
+  min-width: 100%;
+}
+.nav-container {
+  height: 70px;
+  background-color: #FDD080;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.logo {
+  position: center;
+  padding: 10px;
+}
+.icon-container {
+  width: 80px;
+  height: 70px;
+}
+.link-container {
+  width: 450px;
+  height: 70px;
+  background-color: black;
+}
+.banner-container {
+  background-image: url('../img/hoemImage2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+.sidebar {
+  display: inline-block;
+  background-color: #51ACFC;
+  height: 800px;
+  width: 13%;
+}
+.sidebar-left {
+  float: left;
+}
+.main-content-container {
+  background-color: #FDD080;
+  position: center;
+  display: inline-block;
+  height: 800px;
+  width: 74%;
+}
+.sidebar-right {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */
