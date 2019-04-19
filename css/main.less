@@ -13,18 +13,34 @@ body {
   background-color: @primary;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.links {
+  position: relative;
+  list-style-type: none;
+  padding: 25px 0px;
+}
+.links li {
+  color: @textColor;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.links li a {
+  text-decoration: none;
+  font-family: 'Pacifico', cursive;
 }
 .logo {
   position: center;
-  padding: 10px;
+  padding: 15px 70px;
+  color: @textColor;
+  font-size: 35px;
 }
 .icon-container{
-  width: 80px;
+  width: 350px;
   height: 70px;
 }
 .link-container {
   width: 450px;
   height: 70px;
-  background-color: black;
 }
