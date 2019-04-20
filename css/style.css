@@ -297,5 +297,14 @@ hr {
 .submitButton {
   width: 85px;
   height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #FDD080;
+  background-color: #DB2727;
+  font-family: Raanana, sans-serif;
+  font-size: 14px;
+}
+.submitButton:hover {
+  border: 2px solid #51ACFC;
 }
 /*# sourceMappingURL=style.css.map */
