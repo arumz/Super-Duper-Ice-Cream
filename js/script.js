@@ -13,10 +13,10 @@ $.getJSON('./json/data.json', function(data){
     })
 
     //contact
-    $(".form").on("submit",function(e) {
-        e.preventDefault(); // cancel submission
-        window.location.replace("/");
-    });
+    // $(".form").on("submit",function(e) {
+    //     e.preventDefault(); // cancel submission
+    //     window.location.replace("/");
+    // });
 
 
 
