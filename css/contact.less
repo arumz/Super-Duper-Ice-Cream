@@ -63,3 +63,72 @@
 .submitButton:hover{
   border: 2px solid @secondary;
 }
+@media only screen and (max-width: 600px) {
+
+  .contact-sidebar{
+    display: none;
+    width: 0;
+
+  }
+  .main-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .contact-main-content-container {
+    height: 900px;
+    width: 100%;
+
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .input {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    border:none;
+  }
+  .input-message {
+    width: 350px;
+    height: 800px;
+    border-radius: 10px;
+    border:none;
+    text-align: left;
+  }
+
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .contact-sidebar{
+    display: none;
+    width: 0;
+
+  }
+  .main-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .contact-main-content-container {
+    height: 750px;
+    width: 100%;
+
+
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+  .main-content {
+    flex-flow: row wrap;
+  }
+  .contact-main-content-container {
+    height: 800px;
+
+  }
+  .contact-sidebar {
+    height: 800px;
+  }
+
+
+
+}

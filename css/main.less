@@ -1,8 +1,10 @@
 @import 'colors';
 @import 'fonts';
+
 * {
   margin: 0;
 }
+
 html {
   width: 100%;
 }
@@ -73,3 +75,48 @@ h2 {
   font-size: 25px;
   padding: 10px;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo {
+    font-size: 25px;
+    padding: 25px 20px;
+  }
+  .links li {
+    padding: 0px 10px;
+  }
+  .links li a {
+    font-size: 16px;
+  }
+  .icon-container {
+    width: 100px;
+  }
+  h2 {
+    font-family: @Pacifico, cursive;
+    text-align: center;
+    color: @textColor;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .links li {
+    padding: 0px 10px;
+  }
+  .links li a {
+    font-size: 16px;
+  }
+}
+//
+///* Medium devices (landscape tablets, 768px and up) */
+//@media only screen and (min-width: 768px) {...}
+//
+///* Large devices (laptops/desktops, 992px and up) */
+//@media only screen and (min-width: 992px) {...}
+//
+///* Extra large devices (large laptops and desktops, 1200px and up) */
+//@media only screen and (min-width: 1200px) {...}
+
